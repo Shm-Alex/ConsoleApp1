@@ -16,7 +16,7 @@
 
         }
         /// <summary>
-        /// Более умный поискпары
+        /// Более умный поиск пары
         /// </summary>
         /// <returns></returns>
         public int GetUnPairClever()
@@ -39,7 +39,10 @@
             ///по условиям  в списке подозреваемых должно остаться одно число которое не имеет пары
             return haveNotPairs.First();
         }
-
+        /// <summary>
+        /// Навивный поиск пары  предложеный на собеседовании 
+        /// </summary>
+        /// <returns></returns>
         public int GetUnPairSimple()
         {
 
